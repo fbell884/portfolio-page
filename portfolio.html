@@ -8,13 +8,16 @@
   <body>
     <nav class="nav-bar">
       <div class="nav-link">
-        <a href="#video">Watch</a>
+        <a href="welcome-section">Welcome!</a>
       </div>
       <div class="nav-link">
-        <a href="#moreinfo">More Info</a>
+        <a href="#techdoc">JS Tech-Doc</a>
       </div>
       <div class="nav-link">
-        <a href="#form">Stay Updated!</a>
+        <a href="#product">Product Page</a>
+      </div>
+      <div class="nav-link">
+        <a href="#project-link">GitHub Page</a>
       </div>
     </nav>
     <section id="welcome-section">
@@ -24,15 +27,34 @@
         FreeCodeCamp!
       </h3>
     </section>
+    <hr />
     <section id="projects">
-      <div class="project-title">
+      <div id="techdoc" class="project-title">
         <h2>Project: JavaScript Documentation</h2>
         <img src="images/2020-09-29.png" alt="Technical Documentation Page" />
+        <p>
+          - This is my JavaScript Documentation Project. It can be viewed
+          <a href="https://github.com/fbell884/tech-doc">HERE!</a>
+        </p>
       </div>
-      <div class="project-title">
+      <br />
+      <hr />
+      <div id="product" class="project-title">
         <h2>Project: Product Landing Page</h2>
-        <img src="product.png" alt="Product Page" />
+        <img src="images/product.png" alt="Product Page" />
+        <p>
+          - This is my Product Landing Page Project. It can be viewed
+          <a href="https://github.com/fbell884/product-page">HERE!</a>
+        </p>
       </div>
+      <br />
+      <hr />
+      <h3>
+        If you would like to see more of my projects, click the button below!
+      </h3>
+      <form id="project-link" action="https://github.com/fbell884">
+        <input id="submit" type="submit" value="More Projects!" />
+      </form>
     </section>
   </body>
 </html>
